@@ -1,5 +1,5 @@
 class EasyCassLab < Formula
-  version="2"
+  version "2"
   desc "easy-cass-lab: a tool for creating Cassandra clusters"
   homepage "https://github.com/rustyrazorblade/easy-cass-lab"
   url "https://github.com/rustyrazorblade/easy-cass-lab/releases/download/v#{version}/easy-cass-lab-#{version}.tar.gz"
