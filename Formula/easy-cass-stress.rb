@@ -6,7 +6,7 @@ class EasyCassStress < Formula
   license "Apache"
 
   def install
-    bin.install Dir["bin/easy-cass-lab"]
+    bin.install Dir["bin/easy-cass-stress"]
     prefix.install  "lib"
   end
 
