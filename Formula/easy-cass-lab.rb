@@ -1,9 +1,9 @@
 class EasyCassLab < Formula
-  version "8"
+  version "9"
   desc "easy-cass-lab: a tool for creating Cassandra clusters"
   homepage "https://github.com/rustyrazorblade/easy-cass-lab"
   url "https://github.com/rustyrazorblade/easy-cass-lab/releases/download/v#{version}/easy-cass-lab-#{version}.tar.gz"
-  sha256 "649a943cd9634980a10d5270cf37e8af7dd930efd52758578181912d8336a07e"
+  sha256 "7a5d2bf1db210ed2062270570410a9872313d2d233a5516d1bf90a1ff14d5947"
   license "Apache"
 
   def install
