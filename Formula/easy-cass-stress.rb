@@ -2,7 +2,7 @@ class EasyCassStress < Formula
   desc "easy-cass-stress: a tool for benchmarking Cassandra clusters"
   homepage "https://github.com/rustyrazorblade/easy-cass-stress"
   url "https://github.com/rustyrazorblade/easy-cass-stress/releases/download/v6.2.0-SNAPSHOT/easy-cass-stress-6.2.0-SNAPSHOT.tar.gz"
-  sha256 "2655d34e03bbe987fdeba21546cf39f5c7cfd66126ef216d9781cef6ca7eecbd"
+  sha256 "baff138777743c1908944dc4477b3959aa53d841f0327a9346aff2276186dd6e"
   license "Apache"
 
   def install
