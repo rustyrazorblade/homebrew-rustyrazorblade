@@ -3,7 +3,7 @@ class EasyDbLab < Formula
   desc "easy-db-lab: create lab environments for database testing in AWS"
   homepage "https://github.com/rustyrazorblade/easy-db-lab"
   url "https://github.com/rustyrazorblade/easy-db-lab/releases/download/v#{version}/easy-db-lab-#{version}.tar.gz"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "06e3d124406e2ef9da8851887b69b3d42f0c610626d7fa71d9a6aa13dc112383"
   license "Apache"
 
   def install
