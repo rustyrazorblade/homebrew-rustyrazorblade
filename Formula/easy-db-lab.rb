@@ -7,10 +7,13 @@ class EasyDbLab < Formula
   license "Apache"
 
   def install
-    bin.install Dir["bin/easy-db-lab"]
-    prefix.install "lib"
+    # Install the whole distribution: the CLI reads lib/, packer/ and the OTel agent from the
+    # directory above its start script.
+    libexec.install Dir["*"]
+    bin.install_symlink libexec/"bin/easy-db-lab"
   end
 
   test do
+    assert_equal version.to_s, shell_output("#{bin}/easy-db-lab version").strip
   end
 end
